@@ -1,0 +1,823 @@
+
+/* import fonts from fonts.css file */ 
+@import url(./fonts.css);
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+}
+
+
+/* start navigation */ 
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #fffdfd;
+}
+
+.fa-bars{
+    display: none;
+}
+
+.all-title{
+    color: #6556e9;
+    font-size: 4em;
+    text-align: center;
+}
+
+
+
+.navbar{
+    display: flex;
+    width: 70%;
+    height:5rem;
+
+
+}
+
+.navBAR{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+
+.navbar-nav li {
+    
+    width: 140px;
+}
+.navbar-nav{
+    display: flex;
+    list-style: none;
+    position: absolute;
+   
+}
+
+.nav-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.deroulant{
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-link{
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-size: 1.5em;
+    color: rgb(67, 66, 66);
+    display: block;
+   
+}
+
+.navbar-nav li:hover,
+a:hover {
+  color: #c2c1c1;
+}
+
+.navbar-nav li:hover ul {
+    display: block;
+}
+.navbar-nav li ul li {
+    width: 100%;
+    height: 20px;
+    background-color: #dadada;
+    border-bottom: 2px solid rgb(250, 248, 248);
+    text-decoration: none;
+    list-style: none;
+    padding: 20px;
+    
+  }
+  .navbar-nav li ul li:hover {
+
+    background-color: #6455E4;
+    
+  }
+
+  .sousmenu{
+    display: none;
+    background-color: #3c3a3a;
+    width:150px;
+    position: absolute;
+    top: 30px;
+   
+  }
+
+
+  .navbar-nav li ul li a {
+    text-decoration: none;
+   font-size: 1.2em;
+   color: #464646;
+   font-family: 'Roboto';
+  
+  }
+  .navbar-nav li ul li a:hover {
+
+   color: #fff;
+  }
+  
+
+.header_area {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+ .site-banner {
+    width: 100%;
+    background: url(../img/banner/home-bannerRak.png) no-repeat 0% 50%; 
+    
+}
+
+ .navbar .navbar-brand{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.header_area .main-menu .navbar{
+    padding: 1rem 20rem ;
+}
+
+
+.banner{
+    display: flex;
+    width: 60vw;
+    height:100vh;
+   
+}
+
+.site_title{
+    width:40vw;
+    height:100vh;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banne_image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-fluid{
+    width:90%;
+}
+.hey-text{
+    font-size: 3rem;
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+.iam_title{
+    font-size: 5rem;
+    font-family: 'Roboto';
+}
+
+.small-text{
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 30px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.site-buttons{
+    display: flex;
+}
+.btn{
+    font-size: 1em;
+    font-weight: bold;
+    width: 140px;
+    height: 40px;
+    margin-right: 20px;
+    border-radius: 3px;
+    
+}
+.button1{
+    border: none;
+    color: #fff;
+    background-color: #6455E4;
+}
+.button2{
+    border: 2px solid #6455E4 ;
+    background-color: #ffffff;
+}
+/* end navigation */ 
+
+/* Banner Area */ 
+
+
+.about-area{
+    width: 100%;
+   height: 700px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 80px 0px;
+}
+
+.about-me{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+    width: 80vw;
+}
+
+
+.about-title span{
+    color: #3c3a3a;
+    letter-spacing: 21px;
+    font-size: 3rem;
+    font-family: 'Roboto';
+    display: block;
+
+}
+
+.about-title{
+    width: 500px;
+    height: 550px;
+}
+
+.paragraph{
+    padding: 50px 0px;
+}
+
+.principal-title, .contact-title{
+    text-align: center;
+}
+
+
+.service__icon{
+    width: 30px;
+    background-color: #b1afaf;
+}
+.para{
+    margin: 30px 0;
+
+}
+
+
+.section-services{
+    width: 100%;
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.services-list{
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70em;
+    height: 35em;
+}
+
+.block1, .block2{
+    width: 30em;
+    height: 33em;
+   
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.block1-bis, .block2-bis{
+    width: 30em;
+    height: 10em;
+    margin: 20px 0px;
+    
+
+  display: flex;
+}
+
+.services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.services-img{
+    margin: 20px;
+}
+
+.services-title{
+    text-align: left;
+    font-size: 2em;
+    font-family: 'Roboto';
+}
+
+.text-secondary{
+    font-size: 1em;
+    font-family: 'Roboto';
+}
+
+
+
+#skills{
+    width: 100%;
+    height: 50rem;
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills-title, .portfolio-title, .contact-title{
+    font-family: 'Roboto';
+    margin-bottom:20px ;
+}
+.text-skills, .skills-title, .portfolio-title, .portfolio-text, .contact-text{
+    text-align: center;
+}
+.contact-text{
+    margin-top: 30px;
+}
+.portfolio-text, .text-skills{
+    margin: 40px 0;
+}
+
+.title-skills{
+    margin: 30px 0;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  
+}
+
+
+.grid_item{
+  
+    margin: 30px;
+    width: 35rem;
+    height:35rem;
+}
+.list-unstyled{
+    list-style: none;
+}
+
+.grid_item h3{
+    font-size: 1.9em;
+    font-family: 'Roboto';
+}
+
+.grid_item .list-unstyled h4{
+    font-size: 1.4em;
+    font-family: 'Roboto';
+}
+
+.grid_item .list-unstyled p{
+    font-size: 1.1em;
+    font-family: 'Roboto';
+}
+
+.list-unstyled li{
+  width: 33.3rem;
+  height: 4rem;
+  background-color: #e7e6e6;
+  border-left: 5px solid rgb(57, 57, 57);
+  margin: 10px 0px;
+  padding-left: 20px;
+}
+
+.progressbar{
+    width: 33.3rem;
+    height: 3rem;
+    background-color: #c9c9c9;
+    margin: 10px 0px;
+    padding-left: 20px;
+}
+
+.bar{
+    font-size: 1.1em;
+    font-family: 'Roboto';
+    color: #fffdfd;
+    line-height: 3rem;
+}
+
+
+.portfolio{
+    margin-top: 150px;
+}
+
+.portfolio-grid{
+   
+    width: 80rem;
+    height: 50rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.portfolio-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.grid__item{
+    
+    width: 24rem;
+    height: 23rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    
+}
+
+.card{
+    background-color: rgb(238, 238, 240);
+    width: 23.5rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 2px rgb(234, 233, 233);;
+}
+
+.card__title{
+    font-size: 2em;
+    font-family: 'Roboto';
+    text-align: left;
+    
+}
+
+.card__inner{
+    width: 100%;
+    padding-left: 10px;
+}
+
+
+.contact{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact_container{
+    width: 50rem;
+    height: 40rem;
+    box-shadow: 3px 3px 3px rgb(224, 223, 223);
+    background-color: #eeeef0;
+    border-radius: 10px;
+    padding: 0px 30px;
+    margin: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  label{
+    font-weight: bold;
+    font-size: 1.3em;
+    font-family: 'Roboto';
+    margin: 30px 0px;
+  }
+
+  input, select{
+    width: 50rem;
+    height: 3rem;
+    border-radius: 5px;
+    border: 1px solid rgb(156, 156, 156);
+    box-shadow: 3px 3px 3px rgb(224, 223, 223);
+  
+  }
+  
+  #envoyer{
+    width: 250px;
+    height: 45px;
+    border: none;
+    margin-top: 30px;
+    background-color: #6556e9;
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+    box-shadow: 3px 3px 3px rgb(224, 223, 223);
+  }
+  
+  textarea{
+    width:50rem ;
+    max-width: 50rem;
+    height: 13rem;
+    max-height: 13rem;
+    border-radius: 5px;
+    border: 1px solid rgb(156, 156, 156);
+    box-shadow: 3px 3px 3px rgb(224, 223, 223);
+   
+  }
+  
+  #container_button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   
+  }
+  
+  form input::placeholder{
+    color: #fff;
+  }
+  
+  form p select:invalid, textarea{
+    color: #fff;
+  }
+
+.label_margin{
+    margin: 20px 0;
+}
+
+
+
+/* End Banner Area */ 
+
+/* Start About Area */ 
+
+
+/* End About Area */ 
+
+
+/* Start Brand Area */ 
+
+
+
+
+/* End Brand Area */ 
+
+/* Services Area */ 
+
+
+
+/* End Services Area */ 
+
+
+/* Project Area */ 
+
+
+
+/* End Project Area */ 
+
+
+/* About Me */ 
+
+
+
+/* End About Me */ 
+
+
+
+/* Footer Area */ 
+
+footer.footer-area{
+    padding: 5rem 0;
+    background: url(../img/footer.png) no-repeat;
+}
+
+footer.footer-area .social h5{
+    font-family: 'Roboto';
+    font-size: 2em;
+    color: #7c7b7b;
+}
+
+footer.footer-area .social a > i{
+    font-size:22px;
+    padding: 2rem;
+    color:#6455E4;
+}
+
+footer.footer-area .social a:hover > i{
+    color:#787879;
+}
+
+
+/* End Footer */ 
+
+
+
+
+@media screen and (max-width: 1440px) {
+    .navbar {
+
+      display:flex;
+      flex-direction: column;
+    }
+    .navbar-brand{
+        margin: 50px 0 ;
+    }
+
+  }
+
+
+  @media screen and (max-width: 1240px) {
+   .section-header{
+    margin-top: 400px;
+   }
+  .banner{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-top: 250px;
+    
+  }
+
+  .img-fluid{
+    width: 70%;
+    margin-bottom: 40px;
+   
+  }
+  }
+
+
+  @media screen and (max-width: 1190px) {
+    .grid{
+        display: flex;
+        flex-direction: column;
+      
+    }
+    .portfolio{
+        margin-top: 650px;
+    }
+   }
+
+   @media screen and (max-width: 1140px) {
+
+
+    .principal-title, .section-header{
+        text-align: center;
+        width: 70%;
+        margin: 0 auto;
+    }
+    #skills{
+        margin-top: 700px;
+    }
+    .contact{
+        margin-top: 500px;
+    }
+
+   }
+   @media screen and (max-width: 955px) {
+
+
+    .about-me{
+        display: flex;
+       flex-direction: column-reverse;
+       margin-top: 300px;
+
+    }
+    .services-list{
+        display: flex;
+        flex-direction: column;
+        margin-top: 400px;
+        
+    }
+    .services-area{
+        margin-top: 400px;
+    }
+
+
+   }
+
+
+@media screen and (max-width: 860px) {
+
+
+    .fa-bars{
+        display: block;
+        position: absolute;
+        top:40px;
+        right: 20px;
+        width: 8%;
+    }
+    .navBAR{
+        display: none;
+    }
+    .about-image{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact_container{
+        width: 70vw;
+        margin: 0 auto;
+    }
+   .contact_container p input{
+    width: 20rem;
+    
+   }
+   .contact_container form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+   }
+ 
+   .contact_container form textarea{
+ 
+    width:20rem ;
+    max-width: 20rem;
+    height: 7rem;
+    max-height: 7rem;
+   }
+   .section-header{
+    margin-bottom: 60px;
+   }
+
+   }
+
+   @media screen and (max-width: 830px){
+    .contact{
+        margin-top: 1700px;
+    }
+    .skills-title{
+        margin-top: 80px;
+    }
+
+   }
+
+   @media screen and (max-width: 580px){
+
+    .skills{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .list-unstyled li{
+        width: 70% ;
+    }
+    .grid_item{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .title-skills{
+        width: 60%;
+        margin-top: 100px;
+    }
+
+    #dev{
+        margin-top: 380px;
+    }
+
+#portfolio{
+    margin-top: 330px;
+ }
+   }
+
+   
+   @media screen and (max-width: 520px){
+
+    .title-about{
+        color: #6556e9;
+        font-size: 3em;
+        text-align: center;
+    }
+    .paragraph{
+        width: 80%;
+        text-align: center;
+    }
+    .about-title{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+   }
+   
+
+   @media screen and (max-width: 490px){
+    main{
+        width: 346px;
+        margin: 0 auto;
+    }
+
+   }
